@@ -1,6 +1,6 @@
-package br.com.alura.screenmatch.modelos;
+package br.com.ricardo.screenmatch.modelos;
 
-import br.com.alura.screenmatch.calculos.Classificavel;
+import br.com.ricardo.screenmatch.calculos.Classificavel;
 
 public class Episodio implements Classificavel {
     private int numero;
