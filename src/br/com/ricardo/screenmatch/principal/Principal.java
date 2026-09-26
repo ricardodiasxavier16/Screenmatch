@@ -1,3 +1,5 @@
+package br.com.ricardo.screenmatch.principal;
+
 import br.com.ricardo.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.ricardo.screenmatch.calculos.FiltroRecomendacao;
 import br.com.ricardo.screenmatch.modelos.Episodio;
