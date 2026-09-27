@@ -4,10 +4,8 @@ import br.com.ricardo.screenmatch.modelos.Filme;
 import br.com.ricardo.screenmatch.modelos.Serie;
 import br.com.ricardo.screenmatch.modelos.Titulo;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
+import java.util.*;
+
 
 public class PrincipalComListas {
     public static void main(String[] args){
@@ -20,7 +18,7 @@ public class PrincipalComListas {
         Serie lost = new Serie("Lost", 2000);
         Filme f1 = filmeDoPaulo;
 
-        ArrayList<Titulo> lista = new ArrayList<>();
+        List<Titulo> lista = new LinkedList<>();
         lista.add(meuFilme);
         lista.add(outroFilme);
         lista.add(filmeDoPaulo);
