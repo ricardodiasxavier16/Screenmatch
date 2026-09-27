@@ -5,6 +5,8 @@ import br.com.ricardo.screenmatch.modelos.Serie;
 import br.com.ricardo.screenmatch.modelos.Titulo;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class PrincipalComListas {
     public static void main(String[] args){
@@ -30,6 +32,23 @@ public class PrincipalComListas {
             }
 
         }
+
+        ArrayList<String> buscaPorArtista = new ArrayList<>();
+        buscaPorArtista.add("Adam Sandler");
+        buscaPorArtista.add("Paulo");
+        buscaPorArtista.add("Jacqueline");
+
+        System.out.println(buscaPorArtista);
+
+        Collections.sort(buscaPorArtista);
+
+        System.out.println("Depois da Ordenação");
+
+        System.out.println(buscaPorArtista);
+
+        Collections.sort(lista);
+
+        System.out.println("Lista de Títulos Ordenados: " + lista);
 
 
     }
