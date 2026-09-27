@@ -50,6 +50,6 @@ public class Serie extends Titulo {
 
     @Override
     public String toString() {
-        return this.getNome();
+        return "Série: " + this.getNome() + "(" + this.getAnoDeLancamento() + ")" ;
     }
 }
